@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+      // <!--React.CreateElemnt is used for creating any tag for Dom Manipulation-->
+      // <!--Creation of Root is from ReactDom.create root but rest core is from react . create Element-->
+      //order of script tags are imp React script tags has to be written first and then used later 
+      const heading = React.createElement("h1",{},"Hello World from");
+      const root  = ReactDOM.createRoot()
+    </script>
+</body>
+</html>
