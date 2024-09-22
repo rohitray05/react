@@ -18,7 +18,7 @@
 13. React is also called library as it can run in a small section like here in root while rest of the thing will have default behaviour, small portaion of web site can also be used that way.
 14. It is set of helper functions taht helps the development.
 
-<-----------------Ingine App------------------------------>  
+<-----------------Ingnite App------------------------------>  
 15. npm is not offially apprebiated as Node Package Manager  
 16. npm init to have npm installed in the  
 17. package.json is the npm configuration 18. We will start having packages installed: We are doing this clean without skafolding
